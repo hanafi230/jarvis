@@ -9,7 +9,7 @@ const app = express();
 // })
 
 //route
-app.get("/",(_req,res)=>{
+app.get("/api/hanafi",(_req,res)=>{
     res.send("Hanafi");
 });
 
