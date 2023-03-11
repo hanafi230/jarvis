@@ -3,6 +3,8 @@ import { client } from "./db.js";
 const app = express();
 
 // //middleware
+
+app.use(express.static("public"));
 // app.use((req, res, next)=>{
 //     console.log("ada request masuk");
 //     next();
